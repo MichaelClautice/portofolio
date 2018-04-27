@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("Hi!"),$(window).scroll(function(){var a=$(document).scrollTop();a>50?$(".navWrapper").addClass("Stage2"):a<50&&$(".navWrapper").removeClass("Stage2")})});
